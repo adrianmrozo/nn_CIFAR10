@@ -53,7 +53,7 @@ def train_neural_network(x):
 	optimizer = tf.train.AdamOptimizer().minimize(cost)
 
 	# one epoch = one cycle of feed-forward and backprop
-	n_epochs = 20 
+	n_epochs = 17 
 
 	with tf.Session() as sess:
 		sess.run(tf.global_variables_initializer())
